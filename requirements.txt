@@ -1,0 +1,8 @@
+opencv_python==4.5.1.48
+numpy==1.19.5
+tensorflow==2.5.0rc1
+scipy==1.6.2
+Flask==1.1.2
+imutils==0.5.4
+matplotlib==3.4.1
+scikit_learn==0.24.2

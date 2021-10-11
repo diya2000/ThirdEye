@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>  कृत्रिमEye.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" 
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+  कृत्रिमEye.
+  
+  </a>
+ 
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+          
+            <p>  कृत्रिमEye.</p>
+          </a>
+          
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Symptoms</span></li>
+            <li><span>About Covid</span></li>
+            <li><span>Social Distancing</span></li>
+            <li><span>Screen Test</span></li>
+            <li><span>Mask Detection</span></li>
+            <li><span>Screeen Test</span></li>
+            <li><span>Hire us</span></li>
+            
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Save Earth<br>From Corona<br>Using AI</h1>
+                <button class="cta" style="background-color: white; color: black; margin-right: 10px;">Distancing Tracker
+                 
+                </button>
+                <button class="cta btn-background2" style="border: 1px solid;">Mask Detection
+             
+                </button>
+                <img  src="/static/img/earth_masked.png" alt="Welcome">
+                <div class="corona_emoji">
+                  <img  src="/static/img/corona_mask2.png" alt="">
+                  <img  src="/static/img/corona_mask2.png" alt="">
+           <img  src="/static/img/corona_mask2.png" alt="">
+                  <img  src="/static/img/corona_mask2.png" alt="">
+                 
+                  <!-- <img  src="/static/img/rock_replace.png" alt="">   -->
+
+                </div>
+                
+              </div>
+              
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Selected work</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a2-1@2x.png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Avoid Public Transport</p>
+                      <p class="slider--item-description">Travel increases your chance of spreading and getting COVID-19. CDC recommends that you do not travel at this time. Postpone travel and stay home to protect yourself and others from Covid. </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a3@2x.png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a4@2x.png" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Metiew &amp; Smith</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a5@2x.png" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Alex Nowak</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a6@2x.png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a7@2x.png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="/static/img/a8@2x.png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <div class="column aboutText">
+                  <p class="small_blue_text"> ABOUT COVID -19</p>
+               <h3 style="font-size: 40px; padding: 0px; margin-bottom: 0; margin-top: 0;">   About Coronavirus<br> (COVID-19)</h3>
+                 
+                  <p class="about_line_before_list">There are several measures you can<br> take to protect yourself from #COVID19.  </p>
+                  <ul>
+                    <li>- Wash your hand properly for 20 seconds,</li>
+                     <li>- Do not touch your face,</li>
+                       <li>- Wear mask,</li>
+                         <li>- Avoid Social gatherings,</li>
+                           <li>- Rubbing your hand with an alcohol-based sanitizer,</li>
+                             <li>- Avoid shaking hands to help protect yourself and others from</li>
+                  </ul>
+                 </div>
+                <button class="cta" style="background-color: white; color: black; margin-right: 10px;">Distancing Tracker
+                 
+                </button>
+                <button class="cta btn-background2" style="border: 1px solid;">Mask Detection
+             
+         
+                </button>
+                <img src="/static/img/content-b.png" alt="About Us">
+             
+          </li>
+          <li class="l-section section">
+            <div class="work">
+            
+              <div class="social_distancing_text"> <p class="small_blue_text"> POWERED BY OPENCV</p>
+                <h1 style="font-size: 40px;">SOCIAL DISTANCING TRACKER</h1>
+                <p> is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moder ate respiratory illness and recover without requiring special treatment.</p>
+                </div>
+            </div>
+            </li>
+          <li class="l-section section">
+            <section id="socialDistancing">
+                 <div class='label top-right' style="display:inline;">
+                <div class='content'>Social Distancing Tracker</div>
+              </div>
+           
+
+
+
+
+              
+                <form method ="post" id="todo-form" action="/">
+                  <button type="submit" class="Button1 socialDistancingOn " name="submit_a" value="submit_a" style="background-color: black; color: white; margin-right: 10px;"> Click For a Test</button>
+                  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <form action="/" method="post" id="cpp">
+                    <button type="submit" class="Button1  btn-background2 socialDistancingOff" name="submit_b" value="submit_a" style="border: 3px solid black; color: black;"> Release caps</button></form>
+                    <div class="socialScreen" >
+                  <div id="container" style="height: 0;">
+                    <video autoplay="true" id="videoElement">
+                    
+                    </video>
+                    
+                </div>
+                <img  style="display: block; margin-left: auto; margin-right: auto;" id="bg" src="/static/img/black2.png" alt="">
+                
+                  <script type="text/javascript">
+                  
+                    $(document).on('submit','#todo-form',function(e)
+                           {
+                              var task=1;
+              console.log('hello');
+              e.preventDefault();
+              $.ajax({
+                type:'POST',
+                url:'/',
+                success:function()
+                {
+                  var video = document.querySelector("#videoElement");
+        
+            if (navigator.mediaDevices.getUserMedia) {
+              navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                  video.srcObject = stream;
+                })
+                .catch(function (err0r) {
+                  console.log("Something went wrong!");
+                });
+            }
+            document.getElementById("bg").src = "{{ url_for('video_feed')}}";
+            console.log(document.getElementById("bg").src);
+                }
+              })
+            });
+                  </script>
+                  
+                  <script type="text/javascript">
+                  
+                    $(document).on('submit','#cpp',function(e)
+                           {
+                              var task=1;
+              console.log('hello');
+              e.preventDefault();
+              $.ajax({
+                type:'POST',
+                url:'/',
+                success:function()
+                {
+                  
+            window.stop;
+            document.getElementById("bg").src = "/static/img/black2.PNG";
+                }
+              })
+            });
+                  </script>
+              
+                  <!-- <div style="background-color: black; width: 840px; height:540px; display: block; margin-left: auto; margin-right: auto;">
+                  </div> -->
+        
+                </div>
+        
+                
+            </section>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+            
+              <div class="social_distancing_text"> <p class="small_blue_text"> POWERED BY OPENCV</p>
+                <h1 style="font-size: 40px;">FACE MASK DETECTOR</h1>
+                <p> is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moder ate respiratory illness and recover without requiring special treatment.</p>
+                </div>
+            </div>
+            </li>
+          <li class="l-section section">
+            <section id="socialDistancing">
+                 <div class='label top-right' style="display:inline;">
+                <div class='content'>Face Mask Detector</div>
+              </div>
+           
+                <form method ="post" id="maskD" action="/">
+                  <button type="submit" class="Button1 socialDistancingOn " name="maskButton" value="maskButton" style="background-color: black; color: white; margin-right: 10px;"> Click For a Test</button>
+                  </form>
+                  <form action="/" method="post" id="cpp2">
+                    <button type="submit" class="Button1  btn-background2 socialDistancingOff"  name="maskOff" value="maskOff"style="border: 3px solid black; color: black;"> Release caps</button></form>
+                   
+                    <div class="socialScreen" style="display: block; margin-left: auto; margin-right: auto;">
+                      <div id="container" style="height: 0;">
+                        <video autoplay="true" id="videoElement2">
+                        
+                        </video>
+                        
+                    </div>
+                    <img  style="display: block; margin-left: auto; margin-right: auto;" id="bg2" src="/static/img/black2.png" alt="">
+                    
+                      <script type="text/javascript">
+                      
+                        $(document).on('submit','#maskD',function(e)
+                               {
+                                  var task=1;
+                  console.log('hello');
+                  e.preventDefault();
+                  $.ajax({
+                    type:'POST',
+                    url:'/',
+                    success:function()
+                    {
+                      var video = document.querySelector("#videoElement2");
+            
+                if (navigator.mediaDevices.getUserMedia) {
+                  navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(function (stream) {
+                      video.srcObject = stream;
+                    })
+                    .catch(function (err0r) {
+                      console.log("Something went wrong!");
+                    });
+                }
+                document.getElementById("bg2").src = "{{ url_for('video_feed2')}}";
+                    }
+                  })
+                });
+                      </script>
+                      
+                      <script type="text/javascript">
+                      
+                        $(document).on('submit','#cpp2',function(e)
+                               {
+                                  var task=1;
+                  console.log('hello');
+                  e.preventDefault();
+                  $.ajax({
+                    type:'POST',
+                    url:'/',
+                    success:function()
+                    {
+                      
+                window.stop;
+                document.getElementById("bg2").src = "/static/img/black2.PNG";
+                    }
+                  })
+                });
+                      </script>
+                   
+                      <!-- <div style="background-color: black; width: 840px; height:540px; display: block; margin-left: auto; margin-right: auto;">
+                      </div> -->
+            
+                    </div>
+            
+        
+                
+            </section>
+          </li>
+    
+        
+          <li class="l-section section">
+            <div class="hire">
+              <h2 id="text_to_be_changed">You want us to do</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form  action="/"  method ="post" id="Contact_form" class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" name="App" value="App Design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      App Design
+                    </label>
+                    <input id="opt-2" type="checkbox" name="Graphic" value="Graphic Design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Graphic Design
+                    </label>
+                    <input id="opt-3" type="checkbox" name="IOT" value="IOT Setting">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      IOT Setting
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" name="CCTV" value="CCTV Setting">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      CCTV Setting
+                    </label>
+                    <input id="opt-5" type="checkbox" value="Mask Detection" name="Mask">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Mask Detection
+                    </label>
+                    <input id="opt-6" type="checkbox" value="Social Distancing" name="Social">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Social Distancing
+                    </label>
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="namee" type="text"  name="name" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" name="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <input id="cu" name="cu" type="submit" value="Send Request">
+              </form>
+       
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Symptoms</li>
+    <li>About Covid</li>
+    <li>Social Distancing</li>
+    <li>Screen Test</li>
+    <li>Mask Detection</li>
+    <li>Screeen Test</li>
+    <li>Hire us</li>
+  </ul>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+const add="{{ url_for('static', filename='js/vendor/jquery-2.2.4.min.js')}}"
+window.jQuery || document.write('<script src=add>')</script>
+<script  type="module" src="{{ url_for('static', filename='js/vendor/hammer-2.0.8.js')}}"></script>
+<script type="module"  src="{{ url_for('static', filename='js/vendor/jquery-2.2.4.min.js')}}"></script>
+
+<script type="module"  src="{{ url_for('static', filename='js/functions.js')}}"></script>
+</body>
+</html>
+<!-- 
+static\js\functions.js
+static\js\vendor\jquery-2.2.4.min.js -->
